@@ -244,3 +244,164 @@ section.categorias div.contenedor-2{
 section.categorias div.contenedor-2 div.img-categorias{
     margin-bottom: 20px;
 }
+
+/* Section destacados  */
+
+section.destacados{
+    background: #f5f5f5;
+    padding-bottom: 60px;
+}
+
+section.destacados div.contenedor-slider{
+   display: flex;
+   width: 90%;
+   align-items: center;
+   margin: auto;
+}
+
+section.destacados div.contenedor-slider div.slider-wrapper{
+    overflow: hidden;
+    width: 100%;
+}
+
+section.destacados div.contenedor-slider div.slider-wrapper div.slider{
+    display: flex;
+    gap: 20px;
+    transition: transform .5s ease;
+}
+
+section.destacados div.contenedor-slider .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    margin: 5px;
+}
+
+section.destacados div.contenedor-slider .btn:hover{
+    transition: 0.5s;
+    border: 3px solid #E3B505;
+    color: #E3B505;
+}
+
+
+section.destacados h2{
+    text-align: center;
+    font-weight: 200;
+    padding: 50px 0;
+}
+
+section.destacados h2 span{
+    font-weight: bold;
+}
+
+
+
+section.destacados div.card{
+    min-width: calc((100% - 60px) / 4);
+    background: #ffffff;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+section.destacados div.card:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #6d6d6d;
+}
+
+
+
+section.destacados div.card div.card-img{
+    background-image: url(/img/carril.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+
+}
+
+section.destacados div.card div.img2 {
+    background-image: url(/img/cadenas-carru.jpg);
+
+}
+
+section.destacados div.card div.img3 {
+    background-image: url(/img/ruedatensora.jpg);
+
+}
+
+section.destacados div.card div.img4 {
+    background-image: url(/img/segmento.jpg);
+
+}
+
+section.destacados div.card div.img5 {
+    background-image: url(/img/rueda.jpg);
+
+}
+
+section.destacados div.card div.img6 {
+    background-image: url(/img/ruedatensora.jpg);
+
+}
+
+section.destacados div.card div.img7 {
+    background-image: url(/img/segmento.jpg);
+
+}
+
+
+section.destacados div.card div.card-text{
+    padding: 0 20px 30px 20px;
+}
+
+section.destacados div.card div.card-text ul li{
+    list-style: none;
+    padding: 20px 10px 10px 10px;
+    font-weight: bold;
+}
+
+section.destacados div.card div.card-text ul li.marca{
+    color: #6d6d6d;
+    font-weight: 400;
+}
+
+section.destacados div.card div.card-text a{
+    background-color: transparent;
+    border: 1px #E3B505 solid;
+    border-radius: 20px;
+    display: block;
+    margin-top: 20px;
+    padding: 10px 60px;
+    color: #E3B505;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.destacados div.card div.card-text a:hover{
+    transition: 0.5s;
+    color: #fff;
+    background-color: #E3B505;
+}
+
+/* section aliados */
+section.aliados div.contenedor{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+section.aliados div.contenedor figure img{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 30%;
+
+
+}
